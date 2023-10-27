@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personalização</title>
+    <link rel="stylesheet" href="contato.css" />
+  </head>
+  <body>
+    <!--<h1>Formulário de Pedido</h1>-->
+    <form
+      action="https://formsubmit.co/marcos.antony.dev@gmail.com"
+      method="POST"
+      class="form"
+    >
+      <label for="name">Nome</label>
+      <input type="text" name="Nome" id="name" placeholder="Digite seu nome" required/>
+      <label for="email">Email</label>
+      <input type="email" name="E-mail" id="email" placeholder="E-mail para contato" required />
+      <label for="tel">Telefone</label>
+      <input type="tel" name="Telefone" id="telefone" placeholder="Telefone para contato" required/>
+      <label for="message">Personalização do seu Pedido</label>
+      <textarea name="Pedido" id="message" placeholder="Digite as Características da sua Pizza" required></textarea>
+      <input type="hidden" name="_captcha" value="false" />
+      <input
+        type="hidden"
+        name="_next"
+        value="http://127.0.0.1:5500/index.html"
+      />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

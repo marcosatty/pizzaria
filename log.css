@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Han+Sans&family=Roboto:wght@900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    height: 100vh;
+    background-image: linear-gradient(rgba(29, 29, 29,0.8), rgba(29, 29, 29,0.8) ),url(./img/fundopizza.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 20%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+    color:#ffc506;
+}
+
+#login {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.name input{
+    border-radius: 15px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    padding-left: 15px;
+    background-color: #242424;
+    color: #b6b6b6;
+    margin-bottom: 15px;
+    
+}
+
+.email input{
+    border-radius: 15px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    padding-left: 15px;
+    background-color: #242424;
+    color: #b6b6b6;
+    cursor: pointer;
+}
+
+#num input{
+    border-radius: 15px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    padding-left: 15px;
+    background-color: #242424;
+    color: #b6b6b6;
+    margin-top: 15px;
+
+}
+
+
+ 
+.senha input { 
+    border-radius: 15px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    padding-left: 15px;
+    background-color: #242424;
+    color: #b6b6b6;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.entrar{
+    margin-top: 15px;
+}
+    
+
+.btn {
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    width: 120px;
+    height: 60px;
+    padding-left: 15px;
+    background-color:#ffc506;
+    color: #141414;
+}
+
+
+input ::placeholder{
+    color: #b6b6b6;
+}
+
+h1 {
+    color: #b6b6b6;
+    margin: 12px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.caixa {
+    margin-top: -20px;
+}
+
+.caixa img{
+    width: 20%;
+    justify-content: center;
+    
+}
+
+input:focus{
+    outline: none;
+    border-color: #ffc506;
+  box-shadow: 0 0 0 2px #ffc506;
+  margin-top: 10px;
+  transition: border-color, box-shadow 0.2s;
+  
+}
+
+  
+
+
+
+
+
