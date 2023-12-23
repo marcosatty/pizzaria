@@ -2,7 +2,7 @@ let pizzaJson = [
     {
         id: 1,
         name: 'Mussarela',
-        img: "img/pizza.png",
+        img: "/img/pizza.png",
         price: [20.00, 23.00, 25.00],
         sizes: [
           '6 fatias',
@@ -14,7 +14,7 @@ let pizzaJson = [
       {
         id: 2,
         name: 'Calabresa',
-        img: 'img/pizza2.png',
+        img: '/img/pizza2.png',
         price: [21.00, 24.00, 26.00],
         sizes: [
           '6 fatias',
@@ -26,7 +26,7 @@ let pizzaJson = [
       {
         id: 3,
         name: 'Quatro Queijos',
-        img: 'img/pizza3.png',
+        img: '/img/pizza3.png',
         price: [23.00, 26.00, 28.00],
         sizes: [
           '6 fatias',
@@ -38,7 +38,7 @@ let pizzaJson = [
       {
         id: 4,
         name: 'Brasileira',
-        img: 'img/pizza4.png',
+        img: '/img/pizza4.png',
         price: [25.00, 28.00, 30.00],
         sizes: [
           '6 fatias',
@@ -50,7 +50,7 @@ let pizzaJson = [
       {
         id: 5,
         name: 'Portuguesa',
-        img: 'img/pizza5.png',
+        img: '/img/pizza5.png',
         price: [24.00, 27.00, 29.00],
         sizes: [
           '6 fatias',
@@ -62,7 +62,7 @@ let pizzaJson = [
       {
         id: 6,
         name: 'Moda da Casa',
-        img: 'img/pizza6.png',
+        img: '/img/pizza6.png',
         price: [30.00, 33.00, 35.00],
         sizes: [
           '6 fatias',
@@ -74,7 +74,7 @@ let pizzaJson = [
       {
         id: 7,
         name: 'Banana com canela',
-        img: 'img/pizza7.png',
+        img: '/img/pizza7.png',
         price: [27.00, 30.00, 32.00],
         sizes: [
           '6 fatias',
@@ -86,13 +86,13 @@ let pizzaJson = [
       {
         id: 8,
         name: 'Chocolate com morango',
-        img: 'img/pizza8.png',
+        img: '/img/pizza8.png',
         price: [30.00, 32.00, 35.00],
         sizes: [
           '6 fatias',
           '8 fatias',
           '12 fatias'
         ],
-        description: 'Creme de leite, lascas de chocolate e morangos'
+        description: 'Creme de leite, pedaços de chocolate e morango'
       }
 ];
